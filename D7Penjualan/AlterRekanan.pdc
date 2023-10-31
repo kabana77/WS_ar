@@ -1,0 +1,6 @@
+-- Add/modify columns 
+alter table REKANAN add KD_REKANAN2 INTEGER;
+alter table REKANAN add NPKP varchar2(22);
+alter table BUKTI add BATAS_KREDIT number;
+alter table BUKTI add OUTSTANDING number;
+/
