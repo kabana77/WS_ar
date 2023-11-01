@@ -3093,7 +3093,7 @@ begin
           DMFrm.FNoUrut.SetVariable(0,vkode);
           DMFrm.FNoUrut.SetVariable(1,'-');
           DMFrm.FNoUrut.SetVariable(2,Trunc(QMasterTGL.AsDateTime));
-          DMFrm.FNoUrut.SetVariable(3,'P');
+          DMFrm.FNoUrut.SetVariable(3,'W');
           DMFrm.FNoUrut.SetVariable(4, QMasterISPJK.AsString);
           DMFrm.FNoUrut.Open;
           QMasterNO_NOTA.AsString:=DMFrm.FNoUrutFNO_URUT.AsString;

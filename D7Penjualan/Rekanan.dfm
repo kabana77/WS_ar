@@ -1,6 +1,6 @@
 object RekananFrm: TRekananFrm
-  Left = 235
-  Top = 32
+  Left = 359
+  Top = 245
   Width = 1007
   Height = 631
   Caption = 'Rekanan'
@@ -82,7 +82,7 @@ object RekananFrm: TRekananFrm
     Top = 76
     Width = 991
     Height = 503
-    ActivePage = TabSheet2
+    ActivePage = TabSheet1
     Align = alClient
     Style = tsFlatButtons
     TabOrder = 1
@@ -919,7 +919,7 @@ object RekananFrm: TRekananFrm
             object Panel2: TPanel
               Left = 0
               Top = 0
-              Width = 983
+              Width = 975
               Height = 25
               Align = alTop
               TabOrder = 0
@@ -945,7 +945,7 @@ object RekananFrm: TRekananFrm
             object ListBox1: TListBox
               Left = 0
               Top = 25
-              Width = 983
+              Width = 975
               Height = 85
               Align = alClient
               ItemHeight = 13

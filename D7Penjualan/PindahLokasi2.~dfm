@@ -2734,7 +2734,7 @@ object PindahLokasi2Frm: TPindahLokasi2Frm
     OnCalcFields = QMasterCalcFields
     OnNewRecord = QMasterNewRecord
     Left = 56
-    Top = 32
+    Top = 16
     object QMasterIBUKTI: TFloatField
       FieldName = 'IBUKTI'
     end
@@ -3048,8 +3048,8 @@ object PindahLokasi2Frm: TPindahLokasi2Frm
     OutlineSettings.Visible = False
     TextSearchSettings.DefaultString = '<FindText>'
     TextSearchSettings.Enabled = False
-    Left = 200
-    Top = 24
+    Left = 216
+    Top = 16
     Version = '10.06'
     mmColumnWidth = 197300
     DataPipelineName = 'ppDBQDetail'
@@ -4434,7 +4434,7 @@ object PindahLokasi2Frm: TPindahLokasi2Frm
     OpenDataSource = False
     UserName = 'DBQDetail'
     Left = 152
-    Top = 32
+    Top = 24
     MasterDataPipelineName = 'ppDBQMaster'
     object ppDBQDetailppField1: TppField
       FieldAlias = 'IBUKTI_DETAIL'
@@ -5650,8 +5650,8 @@ object PindahLokasi2Frm: TPindahLokasi2Frm
     DataSource = dsQDetail
     OpenDataSource = False
     UserName = 'DBQDetail2'
-    Left = 88
-    Top = 304
+    Left = 40
+    Top = 320
     MasterDataPipelineName = 'ppDBQMaster'
     object ppDBPipeline3ppField1: TppField
       FieldAlias = 'IBUKTI_DETAIL'
@@ -5899,8 +5899,8 @@ object PindahLokasi2Frm: TPindahLokasi2Frm
       544946010000000000}
     QueryAllRecords = False
     Session = DMFrm.OS
-    Left = 464
-    Top = 552
+    Left = 472
+    Top = 536
     object QCalonSuplierKD_REKANAN: TFloatField
       DisplayWidth = 10
       FieldName = 'KD_REKANAN'
@@ -6377,8 +6377,8 @@ object PindahLokasi2Frm: TPindahLokasi2Frm
       4D2E322C35200000000000}
     QBEDefinition.QBEFieldDefs = {0400000001000000080000005154595F53495341010000000000}
     Session = DMFrm.OS
-    Left = 712
-    Top = 416
+    Left = 704
+    Top = 432
     object QCekBuktiSisaKQTY_SISA: TFloatField
       FieldName = 'QTY_SISA'
     end
@@ -6515,7 +6515,7 @@ object PindahLokasi2Frm: TPindahLokasi2Frm
       04000000020000000B0000004F55545354414E44494E470100000000000A0000
       00534953415F4B4952494D010000000000}
     Session = DMFrm.OS
-    Left = 528
+    Left = 552
     Top = 544
     object QBatas_KirimOUTSTANDING: TFloatField
       FieldName = 'OUTSTANDING'

@@ -1,8 +1,8 @@
 object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
-  Left = 303
-  Top = 169
+  Left = 319
+  Top = 204
   Width = 1035
-  Height = 640
+  Height = 639
   Caption = 'Info Kebutuhan Non BB'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -24,7 +24,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
     Left = 0
     Top = 0
     Width = 3
-    Height = 584
+    Height = 583
     Align = alLeft
     BevelOuter = bvNone
     Color = 7039851
@@ -34,7 +34,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
     Left = 1353
     Top = 0
     Width = 0
-    Height = 584
+    Height = 583
     Align = alClient
     BevelOuter = bvNone
     Color = clAppWorkSpace
@@ -44,7 +44,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
     Left = 3
     Top = 0
     Width = 1350
-    Height = 584
+    Height = 583
     Align = alLeft
     BevelOuter = bvNone
     Ctl3D = False
@@ -52,7 +52,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
     TabOrder = 2
     object Label1: TLabel
       Left = 0
-      Top = 571
+      Top = 570
       Width = 1350
       Height = 13
       Align = alBottom
@@ -95,7 +95,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
     end
     object PanelFooter2: TPanel
       Left = 0
-      Top = 530
+      Top = 529
       Width = 1350
       Height = 41
       Align = alBottom
@@ -348,7 +348,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
       Left = 0
       Top = 76
       Width = 1350
-      Height = 454
+      Height = 453
       ActivePage = TabSheet1
       Align = alClient
       TabOrder = 3
@@ -593,7 +593,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
           Left = 0
           Top = 114
           Width = 1342
-          Height = 312
+          Height = 311
           Align = alClient
           BevelOuter = bvNone
           TabOrder = 1
@@ -601,7 +601,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
             Left = 0
             Top = 0
             Width = 1342
-            Height = 312
+            Height = 311
             ControlType.Strings = (
               'ISFIXED;CheckBox;1;0')
             Selected.Strings = (
@@ -659,7 +659,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
             Left = 0
             Top = 0
             Width = 1342
-            Height = 312
+            Height = 311
             ControlType.Strings = (
               'ISFIXED;CheckBox;1;0')
             Selected.Strings = (
@@ -716,7 +716,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
             Left = 0
             Top = 0
             Width = 1342
-            Height = 312
+            Height = 311
             ControlType.Strings = (
               'ISFIXED;CheckBox;1;0')
             Selected.Strings = (
@@ -775,7 +775,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
             Left = 0
             Top = 0
             Width = 1342
-            Height = 312
+            Height = 311
             ControlType.Strings = (
               'ISFIXED;CheckBox;1;0')
             Selected.Strings = (
@@ -784,17 +784,10 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
               'NAMA_ITEM'#9'20'#9'NAMA ITEM'#9'F'
               'NAMA_KONSTRUKSI'#9'18'#9'BLENDED'#9'F'
               'NO_LOT'#9'20'#9'NO LOT'#9'F'
-              'AWAL'#9'8'#9'AWAL~BULAN'#9'F'
-              'HASIL_PRODUKSI'#9'10'#9'PRODUKSI'#9'F'#9'MASUK'
-              'HASIL_PACKING'#9'10'#9'REPACK'#9'F'#9'MASUK'
-              'REPRO'#9'10'#9'REPRO'#9'F'#9'MASUK'
-              'RETUR'#9'10'#9'RETUR'#9'F'#9'MASUK'
-              'ORDER_MKT'#9'10'#9'PENJUALAN'#9'F'#9'KELUAR'
-              'P_REPRO'#9'10'#9'REPRO'#9'F'#9'KELUAR'
-              'UNTUK_DIPACKING'#9'10'#9'REPACK'#9'F'#9'KELUAR'
-              'ORDER_NON'#9'8'#9'SAMPLE'#9'F'#9'KELUAR'
-              'RUSAK'#9'10'#9'KOREKSI'#9'F'
-              'LReady'#9'10'#9'STOK~AKHIR'#9'F'
+              'AWAL'#9'8'#9'AWAL'#9'F'
+              'HASIL_PRODUKSI'#9'10'#9'MASUK'#9'F'
+              'ORDER_MKT'#9'10'#9'KELUAR'#9'F'
+              'LReady'#9'10'#9'AKHIR'#9'F'
               'SATUAN'#9'6'#9'SAT'#9'F'
               'LQTY_BOX'#9'7'#9'Box'#9'F'#9'KEMASAN'
               'LQTY_KRG'#9'7'#9'Karung'#9'F'#9'KEMASAN'
@@ -1210,7 +1203,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
           Left = 0
           Top = 139
           Width = 1342
-          Height = 287
+          Height = 286
           ControlType.Strings = (
             'ISFIXED;CheckBox;1;0')
           Selected.Strings = (
@@ -1481,7 +1474,7 @@ object InfoRealisasiPO2CustFrm: TInfoRealisasiPO2CustFrm
           Left = 0
           Top = 126
           Width = 1342
-          Height = 300
+          Height = 299
           Align = alClient
           BevelOuter = bvNone
           TabOrder = 1

@@ -36,7 +36,7 @@ object RekananFrm: TRekananFrm
   object DBText3: TDBText
     Left = 0
     Top = 49
-    Width = 999
+    Width = 991
     Height = 27
     Align = alTop
     Alignment = taRightJustify
@@ -53,8 +53,8 @@ object RekananFrm: TRekananFrm
   end
   object Label1: TLabel
     Left = 0
-    Top = 591
-    Width = 999
+    Top = 579
+    Width = 991
     Height = 13
     Align = alBottom
     Color = clSkyBlue
@@ -63,7 +63,7 @@ object RekananFrm: TRekananFrm
   object PanelHeader: TPanel
     Left = 0
     Top = 0
-    Width = 999
+    Width = 991
     Height = 49
     Align = alTop
     BevelOuter = bvNone
@@ -80,8 +80,8 @@ object RekananFrm: TRekananFrm
   object PageControl1: TPageControl
     Left = 0
     Top = 76
-    Width = 999
-    Height = 515
+    Width = 991
+    Height = 503
     ActivePage = TabSheet2
     Align = alClient
     Style = tsFlatButtons
@@ -93,8 +93,8 @@ object RekananFrm: TRekananFrm
       object PanelMaster: TPanel
         Left = 0
         Top = 0
-        Width = 991
-        Height = 389
+        Width = 983
+        Height = 377
         Align = alClient
         BevelOuter = bvNone
         Font.Charset = DEFAULT_CHARSET
@@ -105,8 +105,8 @@ object RekananFrm: TRekananFrm
         ParentFont = False
         TabOrder = 0
         DesignSize = (
-          991
-          389)
+          983
+          377)
         object LBarcode: TDBText
           Left = 885
           Top = 0
@@ -127,7 +127,7 @@ object RekananFrm: TRekananFrm
         object Splitter1: TSplitter
           Left = 0
           Top = 353
-          Width = 991
+          Width = 983
           Height = 9
           Cursor = crVSplit
           Align = alTop
@@ -135,7 +135,7 @@ object RekananFrm: TRekananFrm
         object Panel1: TPanel
           Left = 0
           Top = 0
-          Width = 991
+          Width = 983
           Height = 353
           Align = alTop
           TabOrder = 0
@@ -873,8 +873,8 @@ object RekananFrm: TRekananFrm
         object PageControl2: TPageControl
           Left = 0
           Top = 362
-          Width = 991
-          Height = 27
+          Width = 983
+          Height = 15
           ActivePage = TabSheet5
           Align = alClient
           TabOrder = 1
@@ -993,8 +993,8 @@ object RekananFrm: TRekananFrm
       end
       object PanelDetail: TPanel
         Left = 0
-        Top = 431
-        Width = 991
+        Top = 419
+        Width = 983
         Height = 15
         Align = alBottom
         BevelOuter = bvNone
@@ -1002,14 +1002,14 @@ object RekananFrm: TRekananFrm
       end
       object PanelFooter1: TPanel
         Left = 0
-        Top = 446
-        Width = 991
+        Top = 434
+        Width = 983
         Height = 38
         Align = alBottom
         BevelOuter = bvNone
         TabOrder = 3
         DesignSize = (
-          991
+          983
           38)
         object BtnClose1: TBitBtn
           Left = 893
@@ -1138,8 +1138,8 @@ object RekananFrm: TRekananFrm
       end
       object PanelBand: TPanel
         Left = 0
-        Top = 389
-        Width = 991
+        Top = 377
+        Width = 983
         Height = 42
         Align = alBottom
         BevelOuter = bvNone
@@ -1170,7 +1170,7 @@ object RekananFrm: TRekananFrm
       object LabelBanner: TLabel
         Left = 0
         Top = 0
-        Width = 991
+        Width = 983
         Height = 13
         Align = alTop
         Color = clSkyBlue
@@ -1179,15 +1179,15 @@ object RekananFrm: TRekananFrm
       object PanelBrowse: TPanel
         Left = 0
         Top = 13
-        Width = 991
-        Height = 431
+        Width = 983
+        Height = 419
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 0
         object Panel3: TPanel
           Left = 0
           Top = 0
-          Width = 991
+          Width = 983
           Height = 52
           Align = alTop
           BevelInner = bvLowered
@@ -1390,8 +1390,8 @@ object RekananFrm: TRekananFrm
         object wwDBGrid2: TwwDBGrid
           Left = 0
           Top = 52
-          Width = 991
-          Height = 379
+          Width = 983
+          Height = 367
           DisableThemes = True
           DisableThemesInTitle = True
           ControlType.Strings = (
@@ -1444,14 +1444,14 @@ object RekananFrm: TRekananFrm
       end
       object PanelFooter2: TPanel
         Left = 0
-        Top = 444
-        Width = 991
+        Top = 432
+        Width = 983
         Height = 40
         Align = alBottom
         BevelOuter = bvNone
         TabOrder = 1
         DesignSize = (
-          991
+          983
           40)
         object wwDBNavigator1: TwwDBNavigator
           Left = 0
@@ -1886,15 +1886,15 @@ object RekananFrm: TRekananFrm
       object Panel9: TPanel
         Left = 0
         Top = 0
-        Width = 991
-        Height = 484
+        Width = 983
+        Height = 472
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 0
         object Panel10: TPanel
           Left = 0
           Top = 0
-          Width = 991
+          Width = 983
           Height = 52
           Align = alTop
           BevelInner = bvLowered
@@ -2047,8 +2047,8 @@ object RekananFrm: TRekananFrm
         object wwDBGrid5: TwwDBGrid
           Left = 0
           Top = 52
-          Width = 991
-          Height = 432
+          Width = 983
+          Height = 420
           DisableThemes = True
           DisableThemesInTitle = True
           Selected.Strings = (
@@ -2356,7 +2356,6 @@ object RekananFrm: TRekananFrm
     PrinterSetup.DocumentName = 'Report'
     PrinterSetup.PaperName = 'A4'
     PrinterSetup.PrinterName = 'Default'
-    PrinterSetup.SaveDeviceSettings = False
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
     PrinterSetup.mmMarginRight = 6350
@@ -2367,28 +2366,15 @@ object RekananFrm: TRekananFrm
     Template.FileName = 'D:\_Proyek\iPismaTex\Aplikasi\Report\Rekanan.rtm'
     DeviceType = 'Screen'
     EmailSettings.ReportFormat = 'PDF'
-    LanguageID = 'Default'
     OutlineSettings.CreateNode = True
     OutlineSettings.CreatePageNodes = True
     OutlineSettings.Enabled = False
     OutlineSettings.Visible = False
-    PDFSettings.EmbedFontOptions = [efUseSubset]
-    PDFSettings.EncryptSettings.AllowCopy = True
-    PDFSettings.EncryptSettings.AllowInteract = True
-    PDFSettings.EncryptSettings.AllowModify = True
-    PDFSettings.EncryptSettings.AllowPrint = True
-    PDFSettings.EncryptSettings.Enabled = False
-    PDFSettings.FontEncoding = feAnsi
-    RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
-    RTFSettings.DefaultFont.Color = clWindowText
-    RTFSettings.DefaultFont.Height = -13
-    RTFSettings.DefaultFont.Name = 'Arial'
-    RTFSettings.DefaultFont.Style = []
     TextSearchSettings.DefaultString = '<FindText>'
     TextSearchSettings.Enabled = False
     Left = 952
     Top = 8
-    Version = '12.03'
+    Version = '10.06'
     mmColumnWidth = 197300
     DataPipelineName = 'ppDBQBrowseDetail'
     object ppTitleBand1: TppTitleBand
@@ -2399,13 +2385,11 @@ object RekananFrm: TRekananFrm
       mmPrintPosition = 0
       object ppNamaLaporan: TppLabel
         UserName = 'NamaLaporan'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'NamaLaporan'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2421,13 +2405,11 @@ object RekananFrm: TRekananFrm
       end
       object ppUserCetak: TppLabel
         UserName = 'UserCetak'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'UserCetak'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2443,7 +2425,6 @@ object RekananFrm: TRekananFrm
       end
       object ppDBText12: TppDBText
         UserName = 'DBText11'
-        HyperlinkColor = clBlue
         AutoSize = True
         Border.BorderPositions = []
         Border.Color = clBlack
@@ -2451,7 +2432,6 @@ object RekananFrm: TRekananFrm
         Border.Visible = False
         DataField = 'PERUSAHAAN'
         DataPipeline = ppDBPerusahaan
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2468,7 +2448,6 @@ object RekananFrm: TRekananFrm
       end
       object ppDBText13: TppDBText
         UserName = 'DBText12'
-        HyperlinkColor = clBlue
         AutoSize = True
         Border.BorderPositions = []
         Border.Color = clBlack
@@ -2476,7 +2455,6 @@ object RekananFrm: TRekananFrm
         Border.Visible = False
         DataField = 'ALAMAT1'
         DataPipeline = ppDBPerusahaan
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2493,7 +2471,6 @@ object RekananFrm: TRekananFrm
       end
       object ppDBText14: TppDBText
         UserName = 'DBText13'
-        HyperlinkColor = clBlue
         AutoSize = True
         Border.BorderPositions = []
         Border.Color = clBlack
@@ -2501,7 +2478,6 @@ object RekananFrm: TRekananFrm
         Border.Visible = False
         DataField = 'TELEPON1'
         DataPipeline = ppDBPerusahaan
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2518,13 +2494,11 @@ object RekananFrm: TRekananFrm
       end
       object ppLabel9: TppLabel
         UserName = 'Label9'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = '====================================='
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2544,13 +2518,11 @@ object RekananFrm: TRekananFrm
       mmPrintPosition = 0
       object ppLabel1: TppLabel
         UserName = 'Label1'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'KODE'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2565,13 +2537,11 @@ object RekananFrm: TRekananFrm
       end
       object ppLabel2: TppLabel
         UserName = 'Label2'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'NAMA REKANAN'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2586,13 +2556,11 @@ object RekananFrm: TRekananFrm
       end
       object ppLabel6: TppLabel
         UserName = 'Label6'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'NO'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2608,13 +2576,11 @@ object RekananFrm: TRekananFrm
       end
       object ppLabel3: TppLabel
         UserName = 'Label3'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'ALAMAT'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2629,13 +2595,11 @@ object RekananFrm: TRekananFrm
       end
       object ppLabel4: TppLabel
         UserName = 'Label4'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'KOTA'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2650,13 +2614,11 @@ object RekananFrm: TRekananFrm
       end
       object ppLabel5: TppLabel
         UserName = 'Label5'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'TELEPON'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Name = 'Arial'
@@ -2672,28 +2634,18 @@ object RekananFrm: TRekananFrm
     end
     object ppDetailBand2: TppDetailBand
       BeforePrint = ppDetailBand2BeforePrint
-      Background1.Brush.Style = bsClear
-      Background1.Gradient.EndColor = clWhite
-      Background1.Gradient.StartColor = clWhite
-      Background1.Gradient.Style = gsNone
-      Background2.Brush.Style = bsClear
-      Background2.Gradient.EndColor = clWhite
-      Background2.Gradient.StartColor = clWhite
-      Background2.Gradient.Style = gsNone
       PrintHeight = phDynamic
       mmBottomOffset = 0
       mmHeight = 4498
       mmPrintPosition = 0
       object ppNomer: TppLabel
         UserName = 'Nomer'
-        HyperlinkColor = clBlue
         AutoSize = False
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
         Border.Visible = False
         Caption = 'Nomer'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Name = 'Arial Narrow'
@@ -2709,7 +2661,6 @@ object RekananFrm: TRekananFrm
       end
       object ppDBText3: TppDBText
         UserName = 'DBText3'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
@@ -2717,7 +2668,6 @@ object RekananFrm: TRekananFrm
         DataField = 'KD_REKANAN'
         DataPipeline = ppDBQBrowseDetail
         DisplayFormat = '0000'
-        Ellipsis = False
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Name = 'Arial Narrow'
@@ -2733,7 +2683,6 @@ object RekananFrm: TRekananFrm
       end
       object ppDBMemo1: TppDBMemo
         UserName = 'DBMemo1'
-        SaveOrder = 0
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
@@ -2757,12 +2706,10 @@ object RekananFrm: TRekananFrm
         mmBottomOffset = 0
         mmOverFlowOffset = 0
         mmStopPosition = 0
-        mmMinHeight = 0
         mmLeading = 0
       end
       object ppDBMemo2: TppDBMemo
         UserName = 'DBMemo2'
-        SaveOrder = 1
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
@@ -2786,12 +2733,10 @@ object RekananFrm: TRekananFrm
         mmBottomOffset = 0
         mmOverFlowOffset = 0
         mmStopPosition = 0
-        mmMinHeight = 0
         mmLeading = 0
       end
       object ppDBMemo3: TppDBMemo
         UserName = 'DBMemo3'
-        SaveOrder = 2
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
@@ -2815,12 +2760,10 @@ object RekananFrm: TRekananFrm
         mmBottomOffset = 0
         mmOverFlowOffset = 0
         mmStopPosition = 0
-        mmMinHeight = 0
         mmLeading = 0
       end
       object ppDBMemo4: TppDBMemo
         UserName = 'DBMemo4'
-        SaveOrder = 3
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid
@@ -2844,7 +2787,6 @@ object RekananFrm: TRekananFrm
         mmBottomOffset = 0
         mmOverFlowOffset = 0
         mmStopPosition = 0
-        mmMinHeight = 0
         mmLeading = 0
       end
     end
@@ -2854,7 +2796,6 @@ object RekananFrm: TRekananFrm
       mmPrintPosition = 0
       object ppSystemVariable1: TppSystemVariable
         UserName = 'SystemVariable1'
-        HyperlinkColor = clBlue
         Border.BorderPositions = []
         Border.Color = clBlack
         Border.Style = psSolid

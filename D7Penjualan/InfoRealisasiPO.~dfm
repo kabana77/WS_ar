@@ -1633,7 +1633,7 @@ object InfoRealisasiPOFrm: TInfoRealisasiPOFrm
   object QDump: TOracleQuery
     SQL.Strings = (
       'begin'
-      '  ipisma_db2.proc_mutasi2(:VSYSDATE1,:VSYSDATE2);'
+      '  ipisma_db2.proc_mutasi(:VSYSDATE1,:VSYSDATE2);'
       'end;')
     Session = DMFrm.OS
     Variables.Data = {

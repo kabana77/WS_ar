@@ -563,39 +563,16 @@ type
     PageControl1: TPageControl;
     TabSheet1: TTabSheet;
     PanelMaster: TPanel;
-    Label7: TLabel;
     Label9: TLabel;
     Bevel1: TBevel;
     LBarcode: TDBText;
-    DBText1: TDBText;
-    DBText2: TDBText;
-    DBText9: TDBText;
-    Label31: TLabel;
     Label8: TLabel;
-    Label10: TLabel;
     Label11: TLabel;
     Label12: TLabel;
-    Label13: TLabel;
-    DBText4: TDBText;
-    Label16: TLabel;
-    Label18: TLabel;
-    Label19: TLabel;
     wwDBDateTimePicker1: TwwDBDateTimePicker;
-    DBMemo1: TDBMemo;
-    LookSuplier: TwwDBLookupComboDlg;
-    wwDBEdit2: TwwDBEdit;
-    wwDBLookupComboDlg3: TwwDBLookupComboDlg;
-    wwDBEdit6: TwwDBEdit;
     wwDBDateTimePicker2: TwwDBDateTimePicker;
     wwDBEdit1: TwwDBEdit;
     wwDBEdit3: TwwDBEdit;
-    LookOM: TwwDBLookupComboDlg;
-    GroupBox1: TGroupBox;
-    Label17: TLabel;
-    wwDbSpin: TwwDBSpinEdit;
-    CheckBox1: TCheckBox;
-    DBMemo2: TDBMemo;
-    wwDBEdit4: TwwDBEdit;
     PanelDetail: TPanel;
     wwDBGrid1: TwwDBGrid;
     LookItem: TwwDBLookupComboDlg;
@@ -924,8 +901,6 @@ type
     QBrowsePLKETERANGAN: TStringField;
     QBrowsePLQTY: TFloatField;
     QUnpostPL: TOracleQuery;
-    Label6: TLabel;
-    wwDBLookupComboDlg2: TwwDBLookupComboDlg;
     QMasterNO_REG_PL: TFloatField;
     QPackingList: TOracleDataSet;
     QPackingListNO_REG: TFloatField;
@@ -1039,6 +1014,40 @@ type
     QRLabel24: TQRLabel;
     QDetailNO_LOT: TStringField;
     ppDBMemo3: TppDBMemo;
+    QBrowseSUPLIER: TStringField;
+    ppLAlamatWastra: TppLabel;
+    ppLTeleponWastra: TppLabel;
+    PanelFooterC1: TPanel;
+    PanelFooterC2: TPanel;
+    PanelMasterC1: TPanel;
+    Label42: TLabel;
+    wwDBComboBox3: TwwDBComboBox;
+    wwDBLookupComboDlg2: TwwDBLookupComboDlg;
+    Label6: TLabel;
+    GroupBox1: TGroupBox;
+    Label17: TLabel;
+    wwDbSpin: TwwDBSpinEdit;
+    CheckBox1: TCheckBox;
+    Label7: TLabel;
+    Label13: TLabel;
+    Label16: TLabel;
+    DBText4: TDBText;
+    LookOM: TwwDBLookupComboDlg;
+    wwDBEdit2: TwwDBEdit;
+    DBText1: TDBText;
+    DBText2: TDBText;
+    Label10: TLabel;
+    DBMemo1: TDBMemo;
+    Label18: TLabel;
+    DBMemo2: TDBMemo;
+    Label31: TLabel;
+    Label19: TLabel;
+    wwDBEdit6: TwwDBEdit;
+    wwDBEdit4: TwwDBEdit;
+    DBText9: TDBText;
+    LookSuplier: TwwDBLookupComboDlg;
+    wwDBLookupComboDlg3: TwwDBLookupComboDlg;
+    PanelMasterC2: TPanel;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCreate(Sender: TObject);
     procedure BtnExportClick(Sender: TObject);
@@ -1626,6 +1635,57 @@ begin
 
   case RGFormat.ItemIndex of
    0 : begin
+        if QMasterNSUPLIER.AsFloat = 1 then
+        begin
+          ppLPPT.Visible:=True;           //PERUSAHAAN WASTRA
+          ppLAlamatWastra.Visible:=True;  //ALAMAT WASTRA
+          ppLTeleponWastra.Visible:=True; //TELEPON WASTRA
+
+          ppDBText15.Visible:=False;  //PERUSAHAAN
+          ppDBText16.Visible:=False;  //ALAMAT
+          ppDBText17.Visible:=False;  //TELEPON
+
+          ppLine17.Visible:=True;
+          ppNo2.AsInteger:=0;
+
+          if RGKertas.ItemIndex=0 then ppReportInput.PrinterSetup.PaperHeight:=297 else ppReportInput.PrinterSetup.PaperHeight:=140;
+          ppReportInput.Print;
+        end
+        else
+        begin
+          ppLPPT.Visible:=False;           //PERUSAHAAN WASTRA
+          ppLAlamatWastra.Visible:=False;  //ALAMAT WASTRA
+          ppLTeleponWastra.Visible:=False; //TELEPON WASTRA
+
+          ppDBText15.Visible:=True;    //PERUSAHAAN
+          ppDBText16.Visible:=True;    //ALAMAT
+          ppDBText17.Visible:=True;    //TELEPON
+          ppLine17.Visible:=True;
+          ppNo2.AsInteger:=0;
+
+          if RGKertas.ItemIndex=0 then ppReportInput.PrinterSetup.PaperHeight:=297 else ppReportInput.PrinterSetup.PaperHeight:=140;
+          ppReportInput.Print;
+        end;
+       end;
+   1 : begin
+          ppLPPT.Visible:=False;
+          ppDBText15.Visible:=False;
+          ppDBText16.Visible:=False;
+          ppDBText17.Visible:=False;
+          ppLine17.Visible:=False;
+          ppLAlamatWastra.Visible:=False;  //ALAMAT WASTRA
+          ppLTeleponWastra.Visible:=False; //TELEPON WASTRA
+          ppNo2.AsInteger:=0;
+          if RGKertas.ItemIndex=0 then
+            ppReportInput.PrinterSetup.PaperHeight:=297
+          else
+            ppReportInput.PrinterSetup.PaperHeight:=140;
+          ppReportInput.Print;
+       end;
+  end;
+
+  {case RGFormat.ItemIndex of
+   0 : begin
         ppLPPT.Visible:=False;
         ppDBText15.Visible:=True;
         ppDBText16.Visible:=True;
@@ -1661,44 +1721,9 @@ begin
         ppLine17.Visible:=True;
         ppNo2.AsInteger:=0;
 
-        if RGKertas.ItemIndex=0 then
-           ppReportInput.PrinterSetup.PaperHeight:=297
-        else
-           ppReportInput.PrinterSetup.PaperHeight:=140;
-
+        if RGKertas.ItemIndex=0 then ppReportInput.PrinterSetup.PaperHeight:=297 else ppReportInput.PrinterSetup.PaperHeight:=140;
         ppReportInput.Print;
        end;
-
-  end;
-
-  { ########### SKRIP LAMA ##############
-  if CheckBox2.Checked=False then
-  begin
-    ppDBText15.Visible:=True;
-    ppDBText16.Visible:=True;
-    ppDBText17.Visible:=True;
-    ppLine17.Visible:=True;
-    ppNo2.AsInteger:=0;
-
-      if RGKertas.ItemIndex=0 then
-         ppReportInput.PrinterSetup.PaperHeight:=297
-      else
-         ppReportInput.PrinterSetup.PaperHeight:=140;
-
-    ppReportInput.Print;
-  end;
-  if CheckBox2.Checked=True then
-  begin
-    ppDBText15.Visible:=False;
-    ppDBText16.Visible:=False;
-    ppDBText17.Visible:=False;
-    ppLine17.Visible:=False;
-    ppNo2.AsInteger:=0;
-    if RGKertas.ItemIndex=0 then
-      ppReportInput.PrinterSetup.PaperHeight:=297
-    else
-        ppReportInput.PrinterSetup.PaperHeight:=140;
-    ppReportInput.Print;
   end;}
 
 end;
@@ -1733,6 +1758,7 @@ QMasterISPJK.AsString:=QCekPPNISPJK.AsString;
      DMFrm.FNoUrut.SetVariable(0,vkode);
      DMFrm.FNoUrut.SetVariable(1,'-');
      DMFrm.FNoUrut.SetVariable(2,Trunc(QMasterTGL.AsDateTime));
+     //if QMasterNSUPLIER.AsFloat=1 then DMFrm.FNoUrut.SetVariable(3,'W') else DMFrm.FNoUrut.SetVariable(3,'P');
      DMFrm.FNoUrut.SetVariable(3,'W');
      DMFrm.FNoUrut.SetVariable(4,QMasterISPJK.AsString);
      DMFrm.FNoUrut.Open;
@@ -1890,8 +1916,8 @@ end;
 
 procedure TSPBFrm.QMasterAfterPost(DataSet: TDataSet);
 begin
-{  PageControl1.Pages[1].TabVisible:=QMaster.IsEmpty or (QMasterISPOST.AsString='1');
-  PageControl1.Pages[2].TabVisible:=QMaster.IsEmpty or (QMasterISPOST.AsString='1');}
+  PageControl1.Pages[1].TabVisible:=QMaster.IsEmpty or (QMasterISPOST.AsString='1');
+  PageControl1.Pages[2].TabVisible:=QMaster.IsEmpty or (QMasterISPOST.AsString='1');
 end;
 
 procedure TSPBFrm.QMasterBeforeInsert(DataSet: TDataSet);

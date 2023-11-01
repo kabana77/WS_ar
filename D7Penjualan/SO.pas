@@ -3682,6 +3682,9 @@ end;
 
 procedure TSOFrm.QDetailBeforePost(DataSet: TDataSet);
 begin
+
+  if QDetailKETERANGAN_D.AsString='' then QDetailKETERANGAN_D.AsString:='-'; 
+
   if (QMasterINC_PPN.AsString='3') or (QMasterINC_PPN.AsString='4') then
   begin
      vkonst_pjk_dpp:=1.11;

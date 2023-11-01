@@ -99,7 +99,7 @@ object OrganisasiItemFrm: TOrganisasiItemFrm
       Top = 76
       Width = 944
       Height = 514
-      ActivePage = TabSheet1
+      ActivePage = TabSheet2
       Align = alClient
       Style = tsFlatButtons
       TabOrder = 1

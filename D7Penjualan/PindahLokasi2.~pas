@@ -1412,12 +1412,9 @@ end;
 
 procedure TPindahLokasi2Frm.QDetailBeforePost(DataSet: TDataSet);
 begin
-  if ((QDetailQTY3.AsFloat>0) and (QDetailQTY7.AsFloat=0)) then
-    QDetailQTY7.AsFloat:=QDetailQTY3.AsFloat*181.44;
-  if ((QDetailQTY7.AsFloat>0) and (QDetailQTY3.AsFloat=0)) then
-    QDetailQTY3.AsFloat:=QDetailQTY7.AsFloat/181.44;
-  if ((QDetailQTY3.AsFloat>0) and (QDetailQTY7.AsFloat>0)) then
-    QDetailQTY7.AsFloat:=QDetailQTY3.AsFloat*181.44;
+  if ((QDetailQTY3.AsFloat>0) and (QDetailQTY7.AsFloat=0)) then QDetailQTY7.AsFloat:=QDetailQTY3.AsFloat*181.44;
+  if ((QDetailQTY7.AsFloat>0) and (QDetailQTY3.AsFloat=0)) then QDetailQTY3.AsFloat:=QDetailQTY7.AsFloat/181.44;
+  if ((QDetailQTY3.AsFloat>0) and (QDetailQTY7.AsFloat>0)) then QDetailQTY7.AsFloat:=QDetailQTY3.AsFloat*181.44;
 
   QDetailQTY2.AsFloat:=QDetailQTY3.AsFloat;//*QDetailQTY4.AsFloat;
 
@@ -1434,7 +1431,8 @@ begin
     QCekBuktiSisa2.Close;
     QCekBuktiSisa2.SetVariable('nota', QMasterNO_BUKTI.AsString);
     QCekBuktiSisa2.SetVariable('item', QDetailKD_ITEM.AsString);
-    QCekBuktiSisa2.SetVariable('ket', QDetailKETERANGAN_D.AsString);
+    //QCekBuktiSisa2.SetVariable('ket', QDetailKETERANGAN_D.AsString);
+    if QDetailKETERANGAN_D.AsString='' then QCekBuktiSisa2.SetVariable('ket', '%') else QCekBuktiSisa2.SetVariable('ket', QDetailKETERANGAN_D.AsString);
     QCekBuktiSisa2.Open;
   end
   else
@@ -1458,10 +1456,10 @@ begin
     QCekBuktiSisa2SISA.AsFloat:=QCekBuktiSisa2QTY9.AsFloat-QCekBuktiSisaQTY_SISA.AsFloat;
     if QDetailQTY3.AsFloat>QCekBuktiSisa2SISA.AsFloat then
     begin
-      ShowMessage('Qty sisa ='+FloatToStr(QCekBuktiSisa2SISA.Asfloat)+' Tidak boleh melebihi itu!!');
-      //ShowMessage('ORDER : '+FloatToStr(QCekBuktiSisa2QTY9.AsFloat));
-      //ShowMessage('SISA : '+FloatToStr(QCekBuktiSisaQTY_SISA.AsFloat));
-      //ShowMessage(QCekBuktiSisa2.SQL.Text);
+      ShowMessage('Qty sisa ='+FloatToStr(QCekBuktiSisa2SISA.Asfloat)+' Tidak boleh melebihi itu!!!');
+      ShowMessage('ORDER : '+FloatToStr(QCekBuktiSisa2QTY9.AsFloat));
+      ShowMessage('SISA : '+FloatToStr(QCekBuktiSisaQTY_SISA.AsFloat));
+      ShowMessage(QCekBuktiSisa2.SQL.Text);
       Abort;
     end;
   end

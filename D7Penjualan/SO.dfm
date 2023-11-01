@@ -3,7 +3,7 @@ object SOFrm: TSOFrm
   Top = 146
   Width = 1314
   Height = 728
-  ActiveControl = LookSuplier
+  ActiveControl = vTglAwal
   Caption = 'Order Marketing'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -95,7 +95,7 @@ object SOFrm: TSOFrm
       Top = 76
       Width = 856
       Height = 613
-      ActivePage = TabSheet1
+      ActivePage = TabSheet2
       Align = alClient
       Style = tsFlatButtons
       TabOrder = 1
@@ -4235,7 +4235,8 @@ object SOFrm: TSOFrm
     Session = DMFrm.OS
     AfterScroll = QBrowseAfterScroll
     OnCalcFields = QBrowseCalcFields
-    Left = 552
+    Left = 560
+    Top = 24
     object QBrowseNO_NOTA: TStringField
       FieldName = 'NO_NOTA'
     end
@@ -20811,8 +20812,8 @@ object SOFrm: TSOFrm
       0100000000000A0000005355425F4C4F4B415349010000000000}
     QueryAllRecords = False
     Session = DMFrm.OS
-    Left = 696
-    Top = 104
+    Left = 672
+    Top = 96
     object QSubLokasiJNS_LOKASI: TStringField
       DisplayWidth = 10
       FieldName = 'JNS_LOKASI'
