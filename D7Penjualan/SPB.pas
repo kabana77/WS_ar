@@ -1014,7 +1014,6 @@ type
     QRLabel24: TQRLabel;
     QDetailNO_LOT: TStringField;
     ppDBMemo3: TppDBMemo;
-    QBrowseSUPLIER: TStringField;
     ppLAlamatWastra: TppLabel;
     ppLTeleponWastra: TppLabel;
     PanelFooterC1: TPanel;

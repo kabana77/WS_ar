@@ -70,7 +70,7 @@ object SPBFrm: TSPBFrm
     Top = 76
     Width = 1470
     Height = 681
-    ActivePage = TabSheet1
+    ActivePage = TabSheet2
     Align = alClient
     Style = tsFlatButtons
     TabOrder = 1
@@ -4334,7 +4334,7 @@ object SPBFrm: TSPBFrm
         object wwDBGrid2: TwwDBGrid
           Left = 0
           Top = 0
-          Width = 1638
+          Width = 1462
           Height = 539
           Selected.Strings = (
             'NO_NOTA'#9'14'#9'NO. NOTA'#9'F'
@@ -4361,8 +4361,7 @@ object SPBFrm: TSPBFrm
             'COUNTRY'#9'20'#9'NEGARA'#9'F'#9'DESTINASI'
             'PORT'#9'15'#9'PORT'#9'F'#9'DESTINASI'
             'JML_KEMASAN'#9'10'#9'QTY'#9'F'#9'KEMASAN'
-            'JNS_KEMASAN'#9'10'#9'JENIS'#9'F'#9'KEMASAN'
-            'SUPLIER'#9'29'#9'SUPLIER'#9'F')
+            'JNS_KEMASAN'#9'10'#9'JENIS'#9'F'#9'KEMASAN')
           IniAttributes.Enabled = True
           IniAttributes.Delimiter = ';;'
           IniAttributes.CheckNewFields = True
@@ -5334,10 +5333,6 @@ object SPBFrm: TSPBFrm
     object QBrowseJNS_KEMASAN: TStringField
       FieldName = 'JNS_KEMASAN'
       Size = 10
-    end
-    object QBrowseSUPLIER: TStringField
-      FieldName = 'SUPLIER'
-      Size = 29
     end
   end
   object dsQBrowse: TwwDataSource
