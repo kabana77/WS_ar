@@ -20,6 +20,7 @@ object DMFrm: TDMFrm
     LogonUsername = 'ipisma_db2'
     LogonPassword = 'ipisma_db2'
     LogonDatabase = 'WASTRA'
+    Connected = True
     Left = 64
     Top = 16
   end

@@ -82,7 +82,7 @@ object NotaFrm: TNotaFrm
       Top = 76
       Width = 904
       Height = 559
-      ActivePage = TabSheet8
+      ActivePage = TabSheet1
       Align = alClient
       Style = tsFlatButtons
       TabOrder = 1
@@ -3034,7 +3034,7 @@ object NotaFrm: TNotaFrm
             ForceNewColumn = False
             ForceNewPage = False
             Size.Values = (
-              66.145833333333330000
+              66.145833333333340000
               2910.416666666667000000)
             BandType = rbDetail
             object QRDBText1: TQRDBText
@@ -3051,7 +3051,7 @@ object NotaFrm: TNotaFrm
                 44.979166666666670000
                 15.875000000000000000
                 10.583333333333330000
-                66.145833333333330000)
+                66.145833333333320000)
               Alignment = taLeftJustify
               AlignToBand = False
               AutoSize = True
@@ -3101,7 +3101,7 @@ object NotaFrm: TNotaFrm
               Frame.DrawRight = False
               Size.Values = (
                 44.979166666666670000
-                957.791666666666700000
+                957.791666666666800000
                 10.583333333333330000
                 55.562500000000000000)
               Alignment = taLeftJustify
@@ -3405,7 +3405,7 @@ object NotaFrm: TNotaFrm
                 44.979166666666670000
                 1576.916666666667000000
                 10.583333333333330000
-                97.895833333333330000)
+                97.895833333333320000)
               Alignment = taLeftJustify
               AlignToBand = False
               AutoSize = True
@@ -3498,7 +3498,7 @@ object NotaFrm: TNotaFrm
                 44.979166666666670000
                 2323.041666666667000000
                 31.750000000000000000
-                74.083333333333330000)
+                74.083333333333320000)
               Alignment = taLeftJustify
               AlignToBand = False
               AutoSize = True
@@ -6655,8 +6655,8 @@ object NotaFrm: TNotaFrm
     OutlineSettings.Visible = False
     TextSearchSettings.DefaultString = '<FindText>'
     TextSearchSettings.Enabled = False
-    Left = 256
-    Top = 224
+    Left = 296
+    Top = 200
     Version = '10.06'
     mmColumnWidth = 197274
     DataPipelineName = 'ppDBQDetail'
@@ -6933,7 +6933,7 @@ object NotaFrm: TNotaFrm
         DataPipelineName = 'ppDBPerusahaan'
         mmHeight = 5027
         mmLeft = 3440
-        mmTop = 794
+        mmTop = 3440
         mmWidth = 51329
         BandType = 1
       end
@@ -6956,7 +6956,7 @@ object NotaFrm: TNotaFrm
         DataPipelineName = 'ppDBPerusahaan'
         mmHeight = 3440
         mmLeft = 3440
-        mmTop = 10054
+        mmTop = 8996
         mmWidth = 12912
         BandType = 1
       end
@@ -6979,7 +6979,7 @@ object NotaFrm: TNotaFrm
         DataPipelineName = 'ppDBPerusahaan'
         mmHeight = 3440
         mmLeft = 3440
-        mmTop = 13758
+        mmTop = 12700
         mmWidth = 14817
         BandType = 1
       end
@@ -7255,26 +7255,6 @@ object NotaFrm: TNotaFrm
         mmLeft = 168011
         mmTop = 15610
         mmWidth = 1058
-        BandType = 1
-      end
-      object ppLabel114: TppLabel
-        UserName = 'ppTitle1'
-        Anchors = [atTop]
-        Border.BorderPositions = []
-        Border.Color = clBlack
-        Border.Style = psSolid
-        Border.Visible = False
-        Caption = 'Formerly PT, Pisma Putra Textile'
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clBlack
-        Font.Name = 'Arial'
-        Font.Size = 8
-        Font.Style = []
-        Transparent = True
-        mmHeight = 3302
-        mmLeft = 3440
-        mmTop = 6085
-        mmWidth = 40047
         BandType = 1
       end
       object ppDBText137: TppDBText

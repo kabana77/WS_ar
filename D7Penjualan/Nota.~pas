@@ -1104,7 +1104,6 @@ type
     ppLabel109: TppLabel;
     ppLabel110: TppLabel;
     ppLabel111: TppLabel;
-    ppLabel114: TppLabel;
     ppHeaderBand2: TppHeaderBand;
     ppLabel22: TppLabel;
     ppLabel23: TppLabel;
@@ -2511,14 +2510,12 @@ begin
     ppDBText15.Visible:=False;
     ppDBText16.Visible:=False;
     ppDBText17.Visible:=False;
-    ppLabel114.Visible:=False;
   end
   else
   begin
     ppDBText15.Visible:=True;
     ppDBText16.Visible:=True;
     ppDBText17.Visible:=True;
-    ppLabel114.Visible:=True;
   end;
 
   {ball unit}
